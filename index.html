@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/61513b915e.js" crossorigin="anonymous"></script>
+   
+    <title>TO DO List</title>
+</head>
+<body>
+    <!-- Header section -->
+    <div class="bg-container">
+        <h1 class="main-heading">Todos</h1>
+        <h1 class="task-heading">Create<span class="heading">Task</span> </h1>
+         <!-- Adding task--> 
+         
+        <input type="text" placeholder="What needs to be done?" id="userInputValue" class="todo-user-input">
+        <button id="addTodoTaskBtn" class="button">Add</button>
+        <h1 class="task-heading">My<span class="heading"> Taks</span></h1>
+
+        <ul id="itemContainer" class="todo-item-containers"></ul>
+
+        <button class="button" id="saveTodoList">Save</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
